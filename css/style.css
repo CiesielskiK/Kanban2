@@ -1,0 +1,27 @@
+.container { margin: 0 auto; max-width: 1200px; }
+
+.board h1 { border-bottom: 5px solid rgba(0, 94, 255, 0.67); font-family: 'Roboto Slab', serif; font-size: 60px; letter-spacing: 8px; line-height: 64px; margin: 40px auto; padding-bottom: 30px; text-align: center; text-transform: uppercase; width: 450px; }
+
+.create-column { background-color: #000; border: 1px solid black; border-radius: 8px; color: #fff; display: block; font-size: 16px; height: 50px; margin: 0 auto; width: 160px; }
+
+.column-container { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-top: 60px; }
+
+.column { -webkit-box-align: center; -ms-flex-align: center; align-items: center; background-color: lightskyblue; border-radius: 5px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35); -webkit-box-flex: 1; -ms-flex: 1; flex: 1; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 0px 25px 30px; max-width: 340px; min-height: 380px; min-width: 340px; }
+
+.column-title { border-bottom: 8px solid white; font-family: 'Roboto Slab', serif; font-size: 32px; line-height: 65px; margin-bottom: 16px; margin-top: -25px; text-align: center; }
+
+.column-card-list { list-style-type: none; min-height: 200px; padding: 5px; }
+
+.btn-delete { background-color: #fff0; border: none; font-size: 20px; margin-left: calc(100% - 40px); margin-top: 12px; }
+
+.add-card { background-color: white; border: none; border-radius: 50%; font-size: 20px; height: 27px; line-height: 0px; margin-left: 20px; width: 27px; }
+
+.card { background-color: #ffffff; border-radius: 8px; list-style-type: none; margin: 10px; min-height: 30px; padding: 2px 0; }
+
+.card-description { color: black; font-family: 'Open Sans', sans-serif; margin: 10px 50px; width: 75%; }
+
+.card-delete { background-color: #FFF; border: none; color: grey; cursor: pointer; display: block; float: right; margin-right: 10px; margin-top: 11px; text-transform: uppercase; }
+
+.card-placeholder { background-color: rgba(255, 255, 255, 0.55); border: 1px dashed rgba(0, 0, 0, 0.3); border-radius: 5px; }
+
+.edit { background-color: #FFF; border: none; color: grey; cursor: pointer; display: block; float: left; margin-left: 10px; margin-top: -29px; text-transform: uppercase; }
